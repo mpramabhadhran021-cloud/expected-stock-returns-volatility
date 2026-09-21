@@ -6,11 +6,6 @@ arch>=6.0
 matplotlib>=3.7
 jupyter>=1.0
 
-# Notebooks were built and verified end-to-end (fresh kernel, all cells,
-# zero errors/warnings) against: pandas 3.0.2, numpy 2.4.4, scipy 1.17.1,
-# statsmodels 0.15.0, arch 8.0.0, matplotlib 3.10.8. If you hit an error on
-# an older/newer stack, installing these exact versions is a safe fallback.
-
-# optional: only needed if you want to re-fetch fresh data directly from
-# Kenneth French's Data Library instead of using the bundled CSVs in data/
+# Optional: only needed if you want to download fresh data from
+# Kenneth French's Data Library instead of using the bundled CSV files.
 # pandas_datareader>=0.10
